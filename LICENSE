@@ -1,0 +1,85 @@
+# 自定义软件许可证 (Custom Software License)
+
+## 版权声明 (Copyright Notice)
+
+Copyright © 2024 glasswarm (琉璃) <https://github.com/glasswarm>
+
+本软件及相关文档文件（以下简称"软件"）的版权归 glasswarm (琉璃) 所有。
+
+## 许可条款 (License Terms)
+
+本软件采用自定义许可证。使用本软件的任何部分都必须遵守以下条款：
+
+### 1. 使用许可 (Usage Permission)
+
+**重要提醒**: 使用本软件前必须获得版权所有者 glasswarm (琉璃) 的明确书面许可。
+
+- 任何个人或组织在使用本软件前，必须联系版权所有者并获得书面授权
+- 未经授权的使用、复制、修改或分发均被禁止
+- 商业使用和非商业使用均需要事先获得许可
+
+### 2. 联系方式 (Contact Information)
+
+如需获得使用许可，请联系：
+- GitHub: <https://github.com/glasswarm>
+- 项目地址: <https://github.com/glasswarm>
+
+### 3. 限制条款 (Restrictions)
+
+在未获得明确许可的情况下，禁止：
+
+- ❌ 复制、修改、分发本软件
+- ❌ 商业化使用本软件
+- ❌ 逆向工程、反编译或反汇编
+- ❌ 移除或修改版权声明
+- ❌ 在其他项目中使用本软件代码
+
+### 4. 保证声明 (Warranty Disclaimer)
+
+本软件按"现状"提供，不提供任何形式的明示或暗示保证，包括但不限于：
+- 适销性保证
+- 特定用途适用性保证
+- 非侵权保证
+
+### 5. 责任限制 (Limitation of Liability)
+
+在任何情况下，版权所有者均不对因使用本软件而产生的任何直接、间接、偶然、特殊或后果性损害承担责任。
+
+### 6. 终止条款 (Termination)
+
+如发现违反本许可证条款的行为，版权所有者有权立即终止许可，并要求停止使用本软件。
+
+### 7. 法律适用 (Governing Law)
+
+本许可证受中华人民共和国法律管辖。
+
+---
+
+## English Version
+
+### Custom Software License
+
+**Copyright © 2024 glasswarm (琉璃) <https://github.com/glasswarm>**
+
+This software and associated documentation files (the "Software") are owned by glasswarm (琉璃).
+
+### License Terms
+
+**IMPORTANT**: You must obtain explicit written permission from glasswarm (琉璃) before using this Software.
+
+**Contact**: <https://github.com/glasswarm>
+
+**Restrictions**: Without explicit permission, you may NOT:
+- Copy, modify, or distribute the Software
+- Use the Software commercially or non-commercially  
+- Reverse engineer, decompile, or disassemble
+- Remove or modify copyright notices
+- Use the Software code in other projects
+
+**Disclaimer**: THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
+**Limitation of Liability**: IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY DAMAGES ARISING FROM THE USE OF THIS SOFTWARE.
+
+---
+
+**For licensing inquiries, please contact: <https://github.com/glasswarm>**
