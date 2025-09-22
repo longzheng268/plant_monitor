@@ -1,0 +1,5 @@
+[1/4] cmd.exe /C "cd /D C:\Users\glass\Desktop\longz\Plant_monitor\build\esp-idf\esptool_py && E:\ESP_IDF\Espressif\python_env\idf5.1_py3.10_env\Scripts\python.exe E:/ESP_IDF/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/glass/Desktop/longz/Plant_monitor/build/partition_table/partition-table.bin C:/Users/glass/Desktop/longz/Plant_monitor/build/AP_TCPServer.bin"
+AP_TCPServer.bin binary size 0xc5990 bytes. Smallest app partition is 0x100000 bytes. 0x3a670 bytes (23%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\Users\glass\Desktop\longz\Plant_monitor\build\bootloader\esp-idf\esptool_py && E:\ESP_IDF\Espressif\python_env\idf5.1_py3.10_env\Scripts\python.exe E:/ESP_IDF/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 C:/Users/glass/Desktop/longz/Plant_monitor/build/bootloader/bootloader.bin"
+Bootloader binary size 0x5080 bytes. 0x2f80 bytes (37%) free.

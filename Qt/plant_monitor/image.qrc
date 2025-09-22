@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>picture/plant_back.png</file>
+    </qresource>
+</RCC>
