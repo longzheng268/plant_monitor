@@ -4,7 +4,49 @@
 
 > **许可证提醒**: 使用前请联系 [glasswarm (琉璃)](https://github.com/glasswarm) 获取许可
 
+## 🚀 2.0版本预编译应用 (最新)
+
+### 📱 移动端与桌面端应用
+
+> **🎉 全新发布！** v2.0.0版本预编译应用，无需编译直接使用  
+> **📋 详细说明**: [查看完整v2.0.0发布说明](./releases/v2.0.0.md)
+
+<div align="center">
+
+| 平台 | 架构 | 下载链接 | 版本 | 大小 |
+|------|------|----------|------|------|
+| 📱 Android | ARM64 | [![Download APK](https://img.shields.io/badge/📱_Android_APK-下载_ARM64-green?style=for-the-badge&logo=android)](https://github.com/longzheng268/plant_monitor/releases/download/2.0/plant_monitor_arm64.apk) | v2.0.0 | ~15MB |
+| 🖥️ Windows | AMD64 | [![Download EXE](https://img.shields.io/badge/🖥️_Windows_EXE-下载_AMD64-blue?style=for-the-badge&logo=windows)](https://github.com/longzheng268/plant_monitor/releases/download/2.0/plant_monitor_amd64.exe) | v2.0.0 | ~25MB |
+
+</div>
+
+#### 📱 Android应用特性
+- ✨ 全新Material Design界面
+- 📊 实时数据图表显示
+- 🔔 智能推送通知
+- 🌙 深色模式支持
+- 📱 手势操作优化
+- 🔄 后台数据同步
+
+#### 🖥️ Windows应用特性  
+- 🎯 现代化Fluent Design界面
+- 📈 高级数据分析工具
+- ⚙️ 系统参数配置面板
+- 📊 多视图数据展示
+- 🔐 安全连接管理
+- 💾 数据导出功能
+
+#### 📋 系统要求
+- **Android**: Android 7.0+ (API 24+), ARM64架构
+- **Windows**: Windows 10+ (64位), AMD64架构  
+- **网络**: WiFi连接到监测系统
+- **内存**: 至少2GB可用RAM
+
 ## 🚀 一键下载完整项目
+
+### 🎯 快速开始选择
+
+> **推荐**: 如果您只想使用应用程序，请下载上方的2.0版本预编译应用
 
 ### 完整项目包
 ```bash
@@ -65,7 +107,8 @@ https://github.com/longzheng268/plant_monitor/archive/refs/heads/main.zip
 ### 项目说明文档
 - 📖 [**完整README.md**](https://raw.githubusercontent.com/longzheng268/plant_monitor/main/README.md)
 - 📜 [许可证文件 (LICENSE)](https://raw.githubusercontent.com/longzheng268/plant_monitor/main/LICENSE)
-- 📋 [版本发布说明](https://raw.githubusercontent.com/longzheng268/plant_monitor/main/releases/v1.0.0.md)
+- 📋 [v2.0.0版本发布说明](https://raw.githubusercontent.com/longzheng268/plant_monitor/main/releases/v2.0.0.md)
+- 📋 [v1.0.0版本发布说明](https://raw.githubusercontent.com/longzheng268/plant_monitor/main/releases/v1.0.0.md)
 
 ### Word文档（需要下载查看）
 - 📄 [项目说明书 (.docx)](https://github.com/longzheng268/plant_monitor/raw/main/doc/计算机硬件综合训练I-说明书-(基于STM32的智能农业植物生长监测系统).docx)
@@ -90,7 +133,51 @@ https://github.com/longzheng268/plant_monitor/archive/refs/heads/main.zip
 
 ## 💾 批量下载脚本
 
+### 🚀 2.0版本应用快速下载脚本
+
+#### Windows PowerShell - 2.0应用下载
+```powershell
+# 创建下载目录
+New-Item -ItemType Directory -Path "plant_monitor_v2.0_apps" -Force
+Set-Location "plant_monitor_v2.0_apps"
+
+# 下载2.0版本预编译应用
+Write-Host "正在下载Android ARM64应用..." -ForegroundColor Green
+Invoke-WebRequest -Uri "https://github.com/longzheng268/plant_monitor/releases/download/2.0/plant_monitor_arm64.apk" -OutFile "plant_monitor_arm64.apk"
+
+Write-Host "正在下载Windows AMD64应用..." -ForegroundColor Blue  
+Invoke-WebRequest -Uri "https://github.com/longzheng268/plant_monitor/releases/download/2.0/plant_monitor_amd64.exe" -OutFile "plant_monitor_amd64.exe"
+
+Write-Host "2.0版本应用下载完成！" -ForegroundColor Yellow
+Write-Host "Android APK: plant_monitor_arm64.apk" -ForegroundColor Green
+Write-Host "Windows EXE: plant_monitor_amd64.exe" -ForegroundColor Blue
+```
+
 ### Linux/macOS 批量下载脚本
+
+#### Bash - 2.0应用下载
+```bash
+#!/bin/bash
+# 创建下载目录
+mkdir -p plant_monitor_v2.0_apps
+cd plant_monitor_v2.0_apps
+
+echo "🚀 正在下载植物监测系统2.0版本应用..."
+
+# 下载2.0版本预编译应用
+echo "📱 下载Android ARM64应用..."
+wget -O plant_monitor_arm64.apk "https://github.com/longzheng268/plant_monitor/releases/download/2.0/plant_monitor_arm64.apk"
+
+echo "🖥️ 下载Windows AMD64应用..."
+wget -O plant_monitor_amd64.exe "https://github.com/longzheng268/plant_monitor/releases/download/2.0/plant_monitor_amd64.exe"
+
+echo "✅ 2.0版本应用下载完成！"
+echo "📁 文件列表："
+ls -la *.apk *.exe 2>/dev/null || echo "请检查下载是否成功"
+```
+
+#### 完整项目源码下载
+#### 完整项目源码下载
 ```bash
 #!/bin/bash
 # 创建下载目录
@@ -123,6 +210,9 @@ echo "下载完成！"
 ```
 
 ### Windows PowerShell 批量下载脚本
+
+#### 完整项目源码下载
+#### 完整项目源码下载
 ```powershell
 # 创建下载目录
 New-Item -ItemType Directory -Path "plant_monitor_download" -Force

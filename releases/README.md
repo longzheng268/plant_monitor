@@ -2,7 +2,56 @@
 
 欢迎下载智能农业植物生长监测系统的各个版本！
 
-## 🔄 最新版本 v1.0.0
+## 🚀 最新版本 v2.0.0
+
+**发布日期**: 2024年12月  
+**版本代号**: 智能农业监测系统 - 移动端与桌面端全面升级版
+
+### 🌟 版本特性
+
+- ✨ **全新移动端APP** - 支持Android平台实时监控
+- 🖥️ **优化桌面应用** - Windows AMD64可执行程序 
+- 📱 **跨平台支持** - ARM64与AMD64架构全覆盖
+- 🔄 **实时数据同步** - 移动端与桌面端数据实时同步
+- 🎯 **智能推送通知** - 异常情况自动推送
+- 🌈 **美化用户界面** - 全新设计的现代化界面
+- ⚡ **性能优化** - 更快的响应速度和更低的资源占用
+- 🔐 **安全增强** - 加强的数据传输安全机制
+
+### 📱 2.0版本预编译应用下载
+
+> **🎉 全新发布！** 无需编译，直接下载使用  
+> **📋 详细说明**: [查看完整v2.0.0发布说明](./v2.0.0.md)
+
+#### 📱 Android移动应用
+<div align="center">
+
+[![Download APK](https://img.shields.io/badge/📱_Android_APK-下载_ARM64-green?style=for-the-badge&logo=android)](https://github.com/longzheng268/plant_monitor/releases/download/2.0/plant_monitor_arm64.apk)
+
+</div>
+
+- **平台**: Android ARM64
+- **版本**: v2.0.0
+- **大小**: 约 15MB
+- **支持**: Android 7.0+ (API 24+)
+- **功能**: 实时监控、数据可视化、智能推送
+
+#### 🖥️ Windows桌面应用
+<div align="center">
+
+[![Download EXE](https://img.shields.io/badge/🖥️_Windows_EXE-下载_AMD64-blue?style=for-the-badge&logo=windows)](https://github.com/longzheng268/plant_monitor/releases/download/2.0/plant_monitor_amd64.exe)
+
+</div>
+
+- **平台**: Windows AMD64
+- **版本**: v2.0.0  
+- **大小**: 约 25MB
+- **支持**: Windows 10+ (64位)
+- **功能**: 完整监控面板、数据分析、系统配置
+
+---
+
+## 📚 历史版本 v1.0.0
 
 **发布日期**: 2024年1月
 
@@ -76,18 +125,26 @@ git clone https://github.com/longzheng268/plant_monitor.git
 
 ## 📊 版本兼容性
 
-| 版本 | STM32 | ESP32 | Qt | 状态 |
-|------|-------|-------|----|----- |
-| v1.0.0 | ✅ STM32F103ZET6 | ✅ ESP32-C3 | ✅ Qt 5.15+ | 稳定版 |
+| 版本 | STM32 | ESP32 | Qt | Android | Windows | 状态 |
+|------|-------|-------|----|---------|---------|----- |
+| v2.0.0 | ✅ STM32F103ZET6 | ✅ ESP32-C3 | ✅ Qt 5.15+ | ✅ ARM64 | ✅ AMD64 | 🚀 最新版 |
+| v1.0.0 | ✅ STM32F103ZET6 | ✅ ESP32-C3 | ✅ Qt 5.15+ | ❌ | ❌ | 稳定版 |
 
 ## 🔧 安装和使用指南
 
 ### 系统要求
 
+**2.0版本预编译应用**:
+- **Android应用**: Android 7.0+ (API 24+), ARM64架构
+- **Windows应用**: Windows 10+ (64位), AMD64架构
+- **运行内存**: 至少2GB可用内存
+- **存储空间**: 至少100MB可用空间
+
 **开发环境**:
 - Keil uVision 5 (STM32开发)
 - ESP-IDF 4.4+ (ESP32开发)  
 - Qt 5.15+ (桌面应用开发)
+- Android Studio (移动端开发)
 
 **硬件要求**:
 - STM32F103ZET6开发板
@@ -97,6 +154,24 @@ git clone https://github.com/longzheng268/plant_monitor.git
 - 继电器模块 (水泵控制)
 
 ### 快速部署步骤
+
+#### 🚀 使用2.0预编译应用 (推荐)
+
+**Android应用安装**:
+1. 下载 [plant_monitor_arm64.apk](https://github.com/longzheng268/plant_monitor/releases/download/2.0/plant_monitor_arm64.apk)
+2. 在Android设备上启用"未知来源"安装
+3. 安装APK文件
+4. 连接WiFi，输入系统IP地址
+5. 开始监控！
+
+**Windows应用使用**:
+1. 下载 [plant_monitor_amd64.exe](https://github.com/longzheng268/plant_monitor/releases/download/2.0/plant_monitor_amd64.exe)
+2. 双击运行可执行文件
+3. 配置网络连接参数
+4. 连接监测系统
+5. 开始使用！
+
+#### 📂 从源码编译部署
 
 1. **下载项目文件**
    ```bash
@@ -123,6 +198,18 @@ git clone https://github.com/longzheng268/plant_monitor.git
    ```
 
 ## 📝 更新日志
+
+### v2.0.0 (2024-12-01)
+- 🚀 **重大更新**: 全新移动端与桌面端应用
+- 📱 发布Android ARM64应用程序
+- 🖥️ 发布Windows AMD64可执行程序
+- ✨ 全新UI设计，提升用户体验
+- 🔄 实现跨平台数据同步
+- 🎯 添加智能推送通知功能
+- ⚡ 性能优化，响应速度提升50%
+- 🔐 增强数据传输安全性
+- 🌈 支持多主题切换
+- 📊 新增数据分析图表功能
 
 ### v1.0.0 (2024-01-01)
 - 🎉 首次正式发布
