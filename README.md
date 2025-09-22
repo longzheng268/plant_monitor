@@ -20,6 +20,7 @@
 
 <details>
 <summary>更多项目图片</summary>
+         
 ![ESP32通讯硬件展示](image/IMG_20240101_155554.JPG)
 ![系统整体视图](image/IMG_20240101_155605.JPG)
 ![LCD显示界面](image/IMG_20240101_155701.JPG)
