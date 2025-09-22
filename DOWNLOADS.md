@@ -15,8 +15,8 @@
 
 | 平台 | 架构 | 下载链接 | 版本 | 大小 |
 |------|------|----------|------|------|
-| 📱 Android | ARM64 | [![Download APK](https://img.shields.io/badge/📱_Android_APK-下载_ARM64-green?style=for-the-badge&logo=android)](https://github.com/longzheng268/plant_monitor/releases/download/2.0/plant_monitor_arm64.apk) | v2.0.0 | ~15MB |
-| 🖥️ Windows | AMD64 | [![Download EXE](https://img.shields.io/badge/🖥️_Windows_EXE-下载_AMD64-blue?style=for-the-badge&logo=windows)](https://github.com/longzheng268/plant_monitor/releases/download/2.0/plant_monitor_amd64.exe) | v2.0.0 | ~25MB |
+| 📱 Android | ARM64 | [![Download APK](https://img.shields.io/badge/📱_Android_APK-下载_ARM64-green?style=for-the-badge&logo=android)](https://github.com/longzheng268/plant_monitor/releases/download/2.0/plant_monitor_arm64.apk) | v2.0.0 | ~13.50MB |
+| 🖥️ Windows | AMD64 | [![Download EXE](https://img.shields.io/badge/🖥️_Windows_EXE-下载_AMD64-blue?style=for-the-badge&logo=windows)](https://github.com/longzheng268/plant_monitor/releases/download/2.0/plant_monitor_amd64.exe) | v2.0.0 | ~6.09MB |
 
 </div>
 
