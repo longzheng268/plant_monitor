@@ -1,0 +1,92 @@
+# Build artifacts and binaries
+build/
+Build/
+debug/
+Debug/
+release/
+Release/
+*.bin
+*.hex
+*.elf
+*.map
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Qt specific
+*.pro.user
+*.pro.user.*
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.qm
+Makefile*
+*.app/
+
+# STM32 specific
+*.uvguix*
+*.uvoptx
+*.plg
+*.htm
+*.dep
+*.d
+*.crf
+*.lnp
+*.bak
+*.axf
+JLinkLog.txt
+DebugConfig/
+*.launch
+
+# ESP-IDF specific
+sdkconfig.old
+build/
+components/
+managed_components/
+
+# IDE files
+.vscode/
+.vs/
+*.suo
+*.sln
+*.vcxproj*
+*.cbp
+*.workspace
+
+# Temporary files
+*~
+*.swp
+*.swo
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Documentation build
+docs/_build/
+docs/build/
+
+# Package files
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+# Custom temporary directory
+/tmp/
