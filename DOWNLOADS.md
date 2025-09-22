@@ -8,7 +8,8 @@
 
 ### 📱 移动端与桌面端应用
 
-> **🎉 全新发布！** v2.0.0版本预编译应用，无需编译直接使用
+> **🎉 全新发布！** v2.0.0版本预编译应用，无需编译直接使用  
+> **📋 详细说明**: [查看完整v2.0.0发布说明](./releases/v2.0.0.md)
 
 <div align="center">
 
@@ -106,7 +107,8 @@ https://github.com/longzheng268/plant_monitor/archive/refs/heads/main.zip
 ### 项目说明文档
 - 📖 [**完整README.md**](https://raw.githubusercontent.com/longzheng268/plant_monitor/main/README.md)
 - 📜 [许可证文件 (LICENSE)](https://raw.githubusercontent.com/longzheng268/plant_monitor/main/LICENSE)
-- 📋 [版本发布说明](https://raw.githubusercontent.com/longzheng268/plant_monitor/main/releases/v1.0.0.md)
+- 📋 [v2.0.0版本发布说明](https://raw.githubusercontent.com/longzheng268/plant_monitor/main/releases/v2.0.0.md)
+- 📋 [v1.0.0版本发布说明](https://raw.githubusercontent.com/longzheng268/plant_monitor/main/releases/v1.0.0.md)
 
 ### Word文档（需要下载查看）
 - 📄 [项目说明书 (.docx)](https://github.com/longzheng268/plant_monitor/raw/main/doc/计算机硬件综合训练I-说明书-(基于STM32的智能农业植物生长监测系统).docx)
