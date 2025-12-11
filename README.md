@@ -4,7 +4,7 @@
 [![Platform](https://img.shields.io/badge/platform-STM32%20%7C%20ESP32%20%7C%20Qt-brightgreen.svg)](#支持平台)
 [![Downloads](https://img.shields.io/badge/📥-直接下载-green.svg)](DOWNLOADS.md)
 
-基于STM32F103ZET6的智能农业植物生长监测系统，集成温湿度传感器、光照传感器，通过ESP32模块实现无线数据传输，配备Qt桌面监控界面。
+基于STM32的智能农业植物生长监测系统，以STM32F103ZET6作为主控，ESP32-C作为通讯模块，安卓手机作为操控平台，集成温湿度传感器、光照传感器，分别使用keilv5、ESP-IDF和Qt5进行开发。
 
 ## 🚀 快速下载
 
